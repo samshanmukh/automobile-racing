@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Automobile Races</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-image: url('https://4kwallpapers.com/images/wallpapers/aprilia-rs-gp-motogp-bikes-sports-bikes-white-background-2560x1440-7365.jpg');
+            background-size: cover;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable({
+                "paging": true,
+                "ordering": true,
+                "info": true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Moto_Gp_logo.svg/2560px-Moto_Gp_logo.svg.png" 
+                    width="30" height="30" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="#">MotoGP Races</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/motogp">MotoGP <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/nascar">Nascar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/formula1">Formula1</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <table id="myTable" class="display">
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Points</th>
+                    <th>Rider</th>
+                    <th>Rider Name</th>
+                    <th>Year</th>
+                    <th>Category</th>
+                    <th>Team Name</th>
+                    <th>Bike Name</th>
+                    <th>Country</th>
+                    <th>Speed</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in items %}
+                <tr>
+                    <td>{{ item.position }}</td>
+                    <td>{{ item.points }}</td>
+                    <td>{{ item.rider }}</td>
+                    <td>{{ item.rider_name }}</td>
+                    <td>{{ item.year }}</td>
+                    <td>{{ item.category }}</td>
+                    <td>{{ item.team_name }}</td>
+                    <td>{{ item.bike_name }}</td>
+                    <td>{{ item.country }}</td>
+                    <td>{{ item.speed }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
