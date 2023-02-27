@@ -1,0 +1,814 @@
+[
+ {
+   "Year": 1949,
+   "Driver": "Red Byron",
+   "Car Number": 22,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 2
+ },
+ {
+   "Year": 1950,
+   "Driver": "Bill Rexford",
+   "Car Number": 60,
+   "Car Manufacturer": "Ford",
+   "Wins": 0
+ },
+ {
+   "Year": 1950,
+   "Driver": "Bill Rexford",
+   "Car Number": 8,
+   "Car Manufacturer": "Mercury",
+   "Wins": 0
+ },
+ {
+   "Year": 1950,
+   "Driver": "Bill Rexford",
+   "Car Number": 20,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 0
+ },
+ {
+   "Year": 1950,
+   "Driver": "Bill Rexford",
+   "Car Number": 59,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 0
+ },
+ {
+   "Year": 1950,
+   "Driver": "Bill Rexford",
+   "Car Number": 62,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 0
+ },
+ {
+   "Year": 1950,
+   "Driver": "Bill Rexford",
+   "Car Number": 80,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 0
+ },
+ {
+   "Year": 1950,
+   "Driver": "Bill Rexford",
+   "Car Number": 60,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 1
+ },
+ {
+   "Year": 1951,
+   "Driver": "Herb Thomas",
+   "Car Number": 6,
+   "Car Manufacturer": "Hudson",
+   "Wins": 1
+ },
+ {
+   "Year": 1951,
+   "Driver": "Herb Thomas",
+   "Car Number": 92,
+   "Car Manufacturer": "Hudson",
+   "Wins": 4
+ },
+ {
+   "Year": 1951,
+   "Driver": "Herb Thomas",
+   "Car Number": 99,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 0
+ },
+ {
+   "Year": 1951,
+   "Driver": "Herb Thomas",
+   "Car Number": 2,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 1
+ },
+ {
+   "Year": 1951,
+   "Driver": "Herb Thomas",
+   "Car Number": 92,
+   "Car Manufacturer": "Plymouth",
+   "Wins": 1
+ },
+ {
+   "Year": 1952,
+   "Driver": "Tim Flock",
+   "Car Number": 91,
+   "Car Manufacturer": "Hudson",
+   "Wins": 8
+ },
+ {
+   "Year": 1953,
+   "Driver": "Herb Thomas",
+   "Car Number": 92,
+   "Car Manufacturer": "Hudson",
+   "Wins": 12
+ },
+ {
+   "Year": 1954,
+   "Driver": "Lee Petty",
+   "Car Number": 42,
+   "Car Manufacturer": "Chrysler",
+   "Wins": 7
+ },
+ {
+   "Year": 1954,
+   "Driver": "Lee Petty",
+   "Car Number": 100,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 0
+ },
+ {
+   "Year": 1955,
+   "Driver": "Tim Flock",
+   "Car Number": 2,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 0
+ },
+ {
+   "Year": 1955,
+   "Driver": "Tim Flock",
+   "Car Number": 16,
+   "Car Manufacturer": "Chrysler",
+   "Wins": 0
+ },
+ {
+   "Year": 1955,
+   "Driver": "Tim Flock",
+   "Car Number": 301,
+   "Car Manufacturer": "Chrysler",
+   "Wins": 3
+ },
+ {
+   "Year": 1955,
+   "Driver": "Tim Flock",
+   "Car Number": 300,
+   "Car Manufacturer": "Chrysler",
+   "Wins": 15
+ },
+ {
+   "Year": 1956,
+   "Driver": "Buck Baker",
+   "Car Number": 0,
+   "Car Manufacturer": "Chrysler",
+   "Wins": 0
+ },
+ {
+   "Year": 1956,
+   "Driver": "Buck Baker",
+   "Car Number": 301,
+   "Car Manufacturer": "Chrysler",
+   "Wins": 1
+ },
+ {
+   "Year": 1956,
+   "Driver": "Buck Baker",
+   "Car Number": 87,
+   "Car Manufacturer": "Chrysler",
+   "Wins": 2
+ },
+ {
+   "Year": 1956,
+   "Driver": "Buck Baker",
+   "Car Number": 300,
+   "Car Manufacturer": "Chrysler",
+   "Wins": 6
+ },
+ {
+   "Year": 1956,
+   "Driver": "Buck Baker",
+   "Car Number": 87,
+   "Car Manufacturer": "Dodge",
+   "Wins": 1
+ },
+ {
+   "Year": 1956,
+   "Driver": "Buck Baker",
+   "Car Number": 502,
+   "Car Manufacturer": "Dodge",
+   "Wins": 1
+ },
+ {
+   "Year": 1956,
+   "Driver": "Buck Baker",
+   "Car Number": 500,
+   "Car Manufacturer": "Dodge",
+   "Wins": 3
+ },
+ {
+   "Year": 1956,
+   "Driver": "Buck Baker",
+   "Car Number": 31,
+   "Car Manufacturer": "Ford",
+   "Wins": 0
+ },
+ {
+   "Year": 1956,
+   "Driver": "Buck Baker",
+   "Car Number": 87,
+   "Car Manufacturer": "Ford",
+   "Wins": 0
+ },
+ {
+   "Year": 1957,
+   "Driver": "Buck Baker",
+   "Car Number": 87,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 10
+ },
+ {
+   "Year": 1958,
+   "Driver": "Lee Petty",
+   "Car Number": 42,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 7
+ },
+ {
+   "Year": 1959,
+   "Driver": "Lee Petty",
+   "Car Number": 43,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 1
+ },
+ {
+   "Year": 1959,
+   "Driver": "Lee Petty",
+   "Car Number": 42,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 3
+ },
+ {
+   "Year": 1959,
+   "Driver": "Lee Petty",
+   "Car Number": 42,
+   "Car Manufacturer": "Plymouth",
+   "Wins": 7
+ },
+ {
+   "Year": 1960,
+   "Driver": "Rex White",
+   "Car Number": 74,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 0
+ },
+ {
+   "Year": 1960,
+   "Driver": "Rex White",
+   "Car Number": 4,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 6
+ },
+ {
+   "Year": 1960,
+   "Driver": "Rex White",
+   "Car Number": 15,
+   "Car Manufacturer": "Ford",
+   "Wins": 0
+ },
+ {
+   "Year": 1960,
+   "Driver": "Rex White",
+   "Car Number": 41,
+   "Car Manufacturer": "Ford",
+   "Wins": 0
+ },
+ {
+   "Year": 1961,
+   "Driver": "Ned Jarrett",
+   "Car Number": 11,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 1
+ },
+ {
+   "Year": 1961,
+   "Driver": "Ned Jarrett",
+   "Car Number": 11,
+   "Car Manufacturer": "Ford",
+   "Wins": 0
+ },
+ {
+   "Year": 1962,
+   "Driver": "Joe Weatherly",
+   "Car Number": 8,
+   "Car Manufacturer": "Pontiac",
+   "Wins": 9
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 88,
+   "Car Manufacturer": "Chrysler",
+   "Wins": 0
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 36,
+   "Car Manufacturer": "Dodge",
+   "Wins": 0
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 361,
+   "Car Manufacturer": "Dodge",
+   "Wins": 0
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 8,
+   "Car Manufacturer": "Mercury",
+   "Wins": 0
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 41,
+   "Car Manufacturer": "Plymouth",
+   "Wins": 0
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 2,
+   "Car Manufacturer": "Pontiac",
+   "Wins": 0
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 5,
+   "Car Manufacturer": "Pontiac",
+   "Wins": 0
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 17,
+   "Car Manufacturer": "Pontiac",
+   "Wins": 0
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 57,
+   "Car Manufacturer": "Pontiac",
+   "Wins": 0
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 83,
+   "Car Manufacturer": "Pontiac",
+   "Wins": 0
+ },
+ {
+   "Year": 1963,
+   "Driver": "Joe Weatherly",
+   "Car Number": 8,
+   "Car Manufacturer": "Pontiac",
+   "Wins": 3
+ },
+ {
+   "Year": 1964,
+   "Driver": "Richard Petty",
+   "Car Number": 42,
+   "Car Manufacturer": "Plymouth",
+   "Wins": 0
+ },
+ {
+   "Year": 1964,
+   "Driver": "Richard Petty",
+   "Car Number": 41,
+   "Car Manufacturer": "Plymouth",
+   "Wins": 1
+ },
+ {
+   "Year": 1964,
+   "Driver": "Richard Petty",
+   "Car Number": 43,
+   "Car Manufacturer": "Plymouth",
+   "Wins": 8
+ },
+ {
+   "Year": 1965,
+   "Driver": "Ned Jarrett",
+   "Car Number": 25,
+   "Car Manufacturer": "Ford",
+   "Wins": 0
+ },
+ {
+   "Year": 1965,
+   "Driver": "Ned Jarrett",
+   "Car Number": 11,
+   "Car Manufacturer": "Ford",
+   "Wins": 13
+ },
+ {
+   "Year": 1966,
+   "Driver": "David Pearson",
+   "Car Number": 6,
+   "Car Manufacturer": "Dodge",
+   "Wins": 15
+ },
+ {
+   "Year": 1967,
+   "Driver": "Richard Petty",
+   "Car Number": 43,
+   "Car Manufacturer": "Plymouth",
+   "Wins": 27
+ },
+ {
+   "Year": 1968,
+   "Driver": "David Pearson",
+   "Car Number": 84,
+   "Car Manufacturer": "Ford",
+   "Wins": 0
+ },
+ {
+   "Year": 1968,
+   "Driver": "David Pearson",
+   "Car Number": 17,
+   "Car Manufacturer": "Ford",
+   "Wins": 16
+ },
+ {
+   "Year": 1969,
+   "Driver": "David Pearson",
+   "Car Number": 17,
+   "Car Manufacturer": "Ford",
+   "Wins": 11
+ },
+ {
+   "Year": 1970,
+   "Driver": "Bobby Isaac",
+   "Car Number": 71,
+   "Car Manufacturer": "Dodge",
+   "Wins": 11
+ },
+ {
+   "Year": 1971,
+   "Driver": "Richard Petty",
+   "Car Number": 43,
+   "Car Manufacturer": "Plymouth",
+   "Wins": 21
+ },
+ {
+   "Year": 1972,
+   "Driver": "Richard Petty",
+   "Car Number": 43,
+   "Car Manufacturer": "Dodge",
+   "Wins": 1
+ },
+ {
+   "Year": 1972,
+   "Driver": "Richard Petty",
+   "Car Number": 43,
+   "Car Manufacturer": "Plymouth",
+   "Wins": 7
+ },
+ {
+   "Year": 1973,
+   "Driver": "Benny Parsons",
+   "Car Number": 72,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 1
+ },
+ {
+   "Year": 1973,
+   "Driver": "Benny Parsons",
+   "Car Number": 72,
+   "Car Manufacturer": "Mercury",
+   "Wins": 0
+ },
+ {
+   "Year": 1974,
+   "Driver": "Richard Petty",
+   "Car Number": 43,
+   "Car Manufacturer": "Dodge",
+   "Wins": 10
+ },
+ {
+   "Year": 1975,
+   "Driver": "Richard Petty",
+   "Car Number": 43,
+   "Car Manufacturer": "Dodge",
+   "Wins": 13
+ },
+ {
+   "Year": 1976,
+   "Driver": "Cale Yarborough",
+   "Car Number": 11,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 9
+ },
+ {
+   "Year": 1977,
+   "Driver": "Cale Yarborough",
+   "Car Number": 11,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 9
+ },
+ {
+   "Year": 1978,
+   "Driver": "Cale Yarborough",
+   "Car Number": 11,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 10
+ },
+ {
+   "Year": 1979,
+   "Driver": "Richard Petty",
+   "Car Number": 43,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 4
+ },
+ {
+   "Year": 1979,
+   "Driver": "Richard Petty",
+   "Car Number": 43,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 1
+ },
+ {
+   "Year": 1980,
+   "Driver": "Dale Earnhardt",
+   "Car Number": 2,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 5
+ },
+ {
+   "Year": 1980,
+   "Driver": "Dale Earnhardt",
+   "Car Number": 2,
+   "Car Manufacturer": "Oldsmobile",
+   "Wins": 0
+ },
+ {
+   "Year": 1981,
+   "Driver": "Darrell Waltrip",
+   "Car Number": 11,
+   "Car Manufacturer": "Buick",
+   "Wins": 12
+ },
+ {
+   "Year": 1981,
+   "Driver": "Darrell Waltrip",
+   "Car Number": 11,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 0
+ },
+ {
+   "Year": 1982,
+   "Driver": "Darrell Waltrip",
+   "Car Number": 11,
+   "Car Manufacturer": "Buick",
+   "Wins": 12
+ },
+ {
+   "Year": 1983,
+   "Driver": "Bobby Allison",
+   "Car Number": 22,
+   "Car Manufacturer": "Buick",
+   "Wins": 5
+ },
+ {
+   "Year": 1983,
+   "Driver": "Bobby Allison",
+   "Car Number": 22,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 1
+ },
+ {
+   "Year": 1984,
+   "Driver": "Terry Labonte",
+   "Car Number": 44,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 2
+ },
+ {
+   "Year": 1985,
+   "Driver": "Darrell Waltrip",
+   "Car Number": 11,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 3
+ },
+ {
+   "Year": 1986,
+   "Driver": "Dale Earnhardt",
+   "Car Number": 3,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 5
+ },
+ {
+   "Year": 1987,
+   "Driver": "Dale Earnhardt",
+   "Car Number": 3,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 11
+ },
+ {
+   "Year": 1988,
+   "Driver": "Bill Elliott",
+   "Car Number": 9,
+   "Car Manufacturer": "Ford",
+   "Wins": 6
+ },
+ {
+   "Year": 1989,
+   "Driver": "Rusty Wallace",
+   "Car Number": 27,
+   "Car Manufacturer": "Pontiac",
+   "Wins": 6
+ },
+ {
+   "Year": 1990,
+   "Driver": "Dale Earnhardt",
+   "Car Number": 3,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 9
+ },
+ {
+   "Year": 1991,
+   "Driver": "Dale Earnhardt",
+   "Car Number": 3,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 4
+ },
+ {
+   "Year": 1992,
+   "Driver": "Alan Kulwicki",
+   "Car Number": 7,
+   "Car Manufacturer": "Ford",
+   "Wins": 2
+ },
+ {
+   "Year": 1993,
+   "Driver": "Dale Earnhardt",
+   "Car Number": 3,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 6
+ },
+ {
+   "Year": 1994,
+   "Driver": "Dale Earnhardt",
+   "Car Number": 3,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 4
+ },
+ {
+   "Year": 1995,
+   "Driver": "Jeff Gordon",
+   "Car Number": 24,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 7
+ },
+ {
+   "Year": 1996,
+   "Driver": "Terry Labonte",
+   "Car Number": 5,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 2
+ },
+ {
+   "Year": 1997,
+   "Driver": "Jeff Gordon",
+   "Car Number": 24,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 10
+ },
+ {
+   "Year": 1998,
+   "Driver": "Jeff Gordon",
+   "Car Number": 24,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 13
+ },
+ {
+   "Year": 1999,
+   "Driver": "Dale Jarrett",
+   "Car Number": 88,
+   "Car Manufacturer": "Ford",
+   "Wins": 4
+ },
+ {
+   "Year": 2000,
+   "Driver": "Bobby Labonte",
+   "Car Number": 18,
+   "Car Manufacturer": "Pontiac",
+   "Wins": 4
+ },
+ {
+   "Year": 2001,
+   "Driver": "Jeff Gordon",
+   "Car Number": 24,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 6
+ },
+ {
+   "Year": 2002,
+   "Driver": "Tony Stewart",
+   "Car Number": 20,
+   "Car Manufacturer": "Pontiac",
+   "Wins": 3
+ },
+ {
+   "Year": 2003,
+   "Driver": "Matt Kenseth",
+   "Car Number": 17,
+   "Car Manufacturer": "Ford",
+   "Wins": 1
+ },
+ {
+   "Year": 2004,
+   "Driver": "Kurt Busch",
+   "Car Number": 97,
+   "Car Manufacturer": "Ford",
+   "Wins": 3
+ },
+ {
+   "Year": 2005,
+   "Driver": "Tony Stewart",
+   "Car Number": 20,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 5
+ },
+ {
+   "Year": 2006,
+   "Driver": "Jimmie Johnson",
+   "Car Number": 48,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 5
+ },
+ {
+   "Year": 2007,
+   "Driver": "Jimmie Johnson",
+   "Car Number": 48,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 10
+ },
+ {
+   "Year": 2008,
+   "Driver": "Jimmie Johnson",
+   "Car Number": 48,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 7
+ },
+ {
+   "Year": 2009,
+   "Driver": "Jimmie Johnson",
+   "Car Number": 48,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 7
+ },
+ {
+   "Year": 2010,
+   "Driver": "Jimmie Johnson",
+   "Car Number": 48,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 6
+ },
+ {
+   "Year": 2011,
+   "Driver": "Tony Stewart",
+   "Car Number": 14,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 5
+ },
+ {
+   "Year": 2012,
+   "Driver": "Brad Keselowski",
+   "Car Number": 2,
+   "Car Manufacturer": "Dodge",
+   "Wins": 5
+ },
+ {
+   "Year": 2013,
+   "Driver": "Jimmie Johnson",
+   "Car Number": 48,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 6
+ },
+ {
+   "Year": 2014,
+   "Driver": "Kevin Harvick",
+   "Car Number": 4,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 5
+ },
+ {
+   "Year": 2015,
+   "Driver": "Kyle Busch",
+   "Car Number": 18,
+   "Car Manufacturer": "Toyota",
+   "Wins": 5
+ },
+ {
+   "Year": 2016,
+   "Driver": "Jimmie Johnson",
+   "Car Number": 48,
+   "Car Manufacturer": "Chevrolet",
+   "Wins": 5
+ }
+]
