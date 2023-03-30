@@ -4,10 +4,20 @@ from fastapi import FastAPI, status, Request, Response, Depends, Query
 from fastapi.responses import RedirectResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from fastapi.staticfiles import StaticFiles
+import builtins
 
 import requests
 
 app = FastAPI()
+
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 origins = ["*"]
 
@@ -138,3 +148,65 @@ async def read_json_data(team: str = None):
         json_data = [entry for entry in json_data if entry['Team'] == team]
 
     return json_data
+
+@app.get("/sam_agg", response_class=HTMLResponse)
+async def read_item(request: Request):
+    # Make a GET request to the website
+    url = 'https://motomatters.com/results?page=1%2C0%2C0%2C0%2C0'
+    response = requests.get(url)
+
+    # Parse the HTML content using Beautiful Soup
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    # Find the table containing the results data
+    table = soup.find('table', {'class': 'resultsTable'})
+
+    # Extract the table headers
+    headers = []
+    for th in table.find_all('th'):
+        headers.append(th.text.strip())
+
+    # Extract the table rows
+    rows = []
+    for tr in table.find_all('tr')[1:]:
+        row = []
+        for td in tr.find_all('td'):
+            row.append(td.text.strip())
+        rows.append(row)
+
+    # Create a DataFrame from the rows and headers
+    df = pd.DataFrame(rows, columns=['Pos', 'No.', 'Rider', 'Bike', 'Time', 'Gap', 'Speed'])
+    fastest_time = df.loc[0, "Time"]
+
+    # Get the top three positions
+    top_three = df.loc[:2, ["Pos", "Rider", "Bike"]]
+
+    # Calculate the biggest time gap
+    biggest_gap = df.loc[19, "Gap"]
+
+    # Count the number of each bike model
+    bike_counts = df["Bike"].value_counts()
+
+    # Get the rider with the highest speed
+    max_speed = df["Speed"].max()
+    max_speed_rider = df.loc[df["Speed"] == max_speed]
+
+    # Get the slowest rider
+    slowest_rider = df.loc[19, "Rider"]
+    slowest_speed = df.loc[19, "Speed"]
+    return templates.TemplateResponse("sam_agg_results.html", {
+        "request": request, 
+        "df": df, 
+        "total_races": len(df),
+        "fastest_time": fastest_time, 
+        "top_three": top_three, 
+        "biggest_gap": biggest_gap, 
+        "bike_counts": bike_counts, 
+        "max_speed_rider": max_speed_rider, 
+        "max_speed": max_speed, 
+        "slowest_rider": slowest_rider, 
+        "slowest_speed": slowest_speed,
+        "len": builtins.len  # pass the len function to the template context
+    })
+    # Put the code you want to execute here
+    # return templates.TemplateResponse("sam_agg_results.html", {"request": request, "df": df})
