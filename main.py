@@ -12,6 +12,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from fastapi.staticfiles import StaticFiles
 import builtins
+import plotly.express as px
 
 import requests
 
@@ -210,3 +211,54 @@ async def read_item(request: Request):
     })
     # Put the code you want to execute here
     # return templates.TemplateResponse("sam_agg_results.html", {"request": request, "df": df})
+
+
+# Define the route to serve the HTML page
+@app.get("/many_agg", response_class=HTMLResponse)
+async def read_root(request: Request):
+    # Make a GET request to the webpage
+    url = 'https://speedwaycollective.com/drivers/stats'
+    response = requests.get(url)
+
+    # Parse the HTML content of the page using BeautifulSoup
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    # Find all the tables on the page
+    tables = soup.find_all('table')
+
+    # Assume that the table containing the driver stats is the first one
+    table = tables[0]
+
+    # Extract the data rows of the table
+    data_rows = table.find_all('tr')
+    driver_stats_list = []
+    for i, row in enumerate(data_rows):
+        if i == 0:
+            # This is the header row
+            header_columns = [th.text.strip() for th in row.find_all('th')]
+        else:
+            # This is a data row
+            data_cells = [td.text.strip() for td in row.find_all('td')]
+            driver_stats = dict(zip(header_columns, data_cells))
+            driver_stats_list.append(driver_stats)
+
+    # Create a DataFrame
+    df = pd.DataFrame(driver_stats_list)
+
+    # Clean up the data types
+    df = df.apply(pd.to_numeric, errors='ignore')
+
+    # Generate a summary of the driver stats
+    summary = df.describe()
+
+    # Convert the summary to an HTML table
+    summary_html = summary.to_html()
+
+    # Render the HTML template and pass the summary table as a context variable
+    return templates.TemplateResponse("many_agg_results.html", {"request": request, "summary": summary_html})
+
+# Define the route to serve the HTML page
+@app.get("/ads_agg", response_class=HTMLResponse)
+async def read_root(request: Request):
+    # Render the HTML template and pass the summary table as a context variable
+    return templates.TemplateResponse("ads_agg_results.html", {"request": request})

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Driver Stats Summary</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-image: url('http://www.jayski.com/wp-content/uploads/sites/31/2022/12/19/2023-30-3f-racing.png');
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Driver Stats Summary</h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        {{ summary|safe }}
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="figure">
+                    <img src="static/many_fig1.png" class="img-fluid rounded" alt="Figure 1">
+                    <p class="text-center">Distribution of Top 5s by Class</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="figure">
+                    <img src="static/many_fig2.png" class="img-fluid rounded" alt="Figure 2">
+                    <p class="text-center">Distribution of Top 10s by Class</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="figure">
+                    <img src="static/many_fig3.png" class="img-fluid rounded" alt="Figure 3">
+                    <p class="text-center">Number of Wins Over Time</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="figure">
+                    <img src="static/many_fig4.png" class="img-fluid rounded" alt="Figure 4">
+                    <p class="text-center">Number of Wins by Class</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="figure">
+                    <img src="static/many_heatmap.png" class="img-fluid rounded" alt="Heatmap">
+                    <p class="text-center">Correlation Matrix</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
